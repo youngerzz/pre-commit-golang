@@ -4,7 +4,7 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `gofmt`, requires golang"
--   id: go-test-clever
+-   id: go-test-clever123
     name: 'go-test-clever'
     entry: go test
     #entry: run-go-test-clever.sh
