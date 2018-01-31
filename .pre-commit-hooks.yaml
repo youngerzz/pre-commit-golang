@@ -4,6 +4,14 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `gofmt`, requires golang"
+-   id: go-test-clever
+    name: 'go-test-clever'
+    entry: go test
+    #entry: run-go-test-clever.sh
+    #entry: run-go-fmt.sh
+    files: '\.go$'
+    language: system
+    description: "Runs `gofmt`, requires golang"
 -   id: go-test-clever123
     name: 'go-test-clever123'
     entry: go test
