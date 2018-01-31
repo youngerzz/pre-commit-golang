@@ -10,7 +10,7 @@
     #entry: run-go-test-clever.sh
     #entry: run-go-fmt.sh
     files: '\.go$'
-    language: 'script'
+    language: system
     description: "Runs `gofmt`, requires golang"
 -   id: go-vet
     name: 'go vet'
