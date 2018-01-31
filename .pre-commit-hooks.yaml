@@ -4,6 +4,13 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `gofmt`, requires golang"
+-   id: go-test-clever
+    name: 'go test clever'
+    #entry: run-go-test-clever.sh
+    entry: run-go-fmt.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `gofmt`, requires golang"
 -   id: go-vet
     name: 'go vet'
     entry: run-go-vet.sh
@@ -37,9 +44,3 @@
     files: '\.go$'
     language: 'script'
     description: ""
--   id: go-test-clever
-    name: 'go test clever'
-    entry: run-go-test-clever.sh
-    files: '\.go$'
-    language: 'script'
-    description: "Runs `gofmt`, requires golang"
