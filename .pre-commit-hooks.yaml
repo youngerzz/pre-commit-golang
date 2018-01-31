@@ -37,3 +37,9 @@
     files: '\.go$'
     language: 'script'
     description: ""
+-   id: go-test-clever
+    name: 'go test clever'
+    entry: run-go-test-clever.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `gofmt`, requires golang"
