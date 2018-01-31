@@ -6,7 +6,8 @@
     description: "Runs `gofmt`, requires golang"
 -   id: go-test-clever
     name: 'go test clever'
-    entry: run-go-test-clever.sh
+    entry: go test
+    #entry: run-go-test-clever.sh
     #entry: run-go-fmt.sh
     files: '\.go$'
     language: 'script'
