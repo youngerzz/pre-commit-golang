@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # cd /Users/younger/projects/dev/go/src/github.com/caicloud/kubeflow-admin/
 # make test-local
-echo "test my pre-commit"
+set -e
+
+exec 5>&1
+output="$(gofmt -l -w "$@" | tee /dev/fd/5)"
+[[ -z "$output" ]]
